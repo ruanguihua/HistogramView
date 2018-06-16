@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--直方图样式-->
+    <declare-styleable name="Histogram">
+        <attr name="grahTitle" format="string"/>
+        <attr name="xAxisName" format="string"/>
+        <attr name="yAxisName" format="string"/>
+        <attr name="axisTitleSize" format="dimension|integer"/>
+        <attr name="axisTitleColor" format="color|integer"/>
+        <attr name="axisDivideSizeX" format="integer"/>
+        <attr name="axisDivideSizeY" format="integer"/>
+    </declare-styleable>
+
+</resources>

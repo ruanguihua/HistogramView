@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rgh.histogram.MainActivity">
+
+    <com.rgh.histogram.HistogramView
+        android:id="@+id/hv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:xAxisName="X"
+        app:yAxisName="Y轴"
+        app:grahTitle="直方图"/>
+
+</LinearLayout>
